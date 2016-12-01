@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 //https://dinosaurscode.xyz/go/2016/06/19/golang-mysql-authentication/
 // Adapted from: https://github.com/jakecoffman/go-angular-tutorial
 // Adapted from: https://mschoebel.info/2014/03/09/snippet-golang-webapp-login-logout/
@@ -244,7 +243,6 @@ func main() {
 	//serve on the port 8000 forever
 	http.ListenAndServe(":8000", nil)
 }
-=======
 package main
 
 // Adapted from: https://github.com/jakecoffman/go-angular-tutorial
@@ -331,8 +329,7 @@ const indexPage = `
 <<<<<<< HEAD
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-=======
->>>>>>> origin/master
+
 <head>
 <!-- Nav bar -->
 <form class="navbar-form navbar-left">
@@ -356,10 +353,7 @@ const indexPage = `
           <a class="navbar-brand" href="#">Work Tracker</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/master
         <form method="post" action="/login">
     <input type="email" placeholder="Enter your email" id="email" name="email">
     <input type="password" placeholder="Password" id="password" name="password">
@@ -467,7 +461,6 @@ const internalPage = `
     </p>
 </details>
 </div>
-<<<<<<< HEAD
 
 <!-- Code adapted from http://www.w3schools.com/html/html_form_elements.asp -->
   <div class="col-md-4">
@@ -527,7 +520,6 @@ const internalPage = `
     <p>
         Please select the correct amount of hours you worked this week. 
         <br> Please note: In order to use this site you have to be working a minimum of 10 hours a week and a maximum of 40 hours. </br>
-=======
 <!-- Code adapted from http://www.w3schools.com/html/html_form_elements.asp -->
         <div class="col-md-4">
           <h2>Hours Worked This Week</h2>
@@ -544,7 +536,6 @@ const internalPage = `
     <summary>View Details</summary>
     <p>
         Please select the correct amount of hours you worked this week.
->>>>>>> origin/master
     </p>
 </details>
        </div>
@@ -616,4 +607,3 @@ func main() {
 	http.ListenAndServe(":8000", nil)
 	//fmt.Println(err.Error())
 }
->>>>>>> origin/master
